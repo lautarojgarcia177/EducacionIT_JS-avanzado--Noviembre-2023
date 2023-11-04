@@ -15,3 +15,4 @@ Tecnologias que se utilizan en el Desarrollo web:
 ## Lenguaje Markdown
 
 Son archivos con extension.md, los cuales se escriben con algunos simbolos y luego se pueden visualizar con un formato, ya sea en visual studio code o en github.
+Se utiliza para escribir documentacion dentro de un repositorio.
