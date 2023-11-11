@@ -22,5 +22,5 @@ Existen 2 tipos de variables:
 - let: Para variables que SI pueden ser reasignadas
 
 Existen 2 grupos de tipos de datos:
-- Primitivos: number, boolean
+- Primitivos: number, boolean, string, undefined, null
 - Objetos
