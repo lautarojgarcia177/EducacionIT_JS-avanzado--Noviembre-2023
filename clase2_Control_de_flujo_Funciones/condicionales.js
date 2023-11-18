@@ -56,3 +56,9 @@ if (false || false || true) {
 } else {
   console.log(false)
 }
+
+// Tipos de comparaciones en JS:
+
+// == (Sin cohersion de tipo, solo evalua si es Thruthy o Falsy)
+
+// === (Con cohersion de tipo, es estricto)
