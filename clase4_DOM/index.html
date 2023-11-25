@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="DOM.js"></script>
+    <h1>Blue cold chilli pepers</h1>
+    <h4 id="subtitulo">Lista de canciones</h4>
+    <ul onclick="callback_ustedClickeoElElemento(event)">
+      <li class="song">Under the bridge</li>
+      <li class="song">Californication</li>
+      <li class="song">Can't Stop</li>
+      <li class="song">Scar Tissue</li>
+      <li class="song">Otherside</li>
+    </ul>
+    <input
+      onchange="callback_change()"
+      onblur="callback_blur()"
+      onmouseover="callback_mouseover()"
+      type="email"
+      name=""
+      id=""
+    />
+  </body>
+</html>
