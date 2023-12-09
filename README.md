@@ -45,10 +45,9 @@
 2. Prototipos y herencia
 3. Promesas y programación asíncrona
 4. Manejo de errores (try-catch)
-5. Módulos de JavaScript y import/export de ES6
-6. La palabra clave 'this' y contexto
 
 ##### Módulo 6: ES6 y más allá
+(Continuacion Promesas y programación asíncrona)
 1. Let, const y ámbito de bloque
 2. Funciones flecha
 3. Literales de plantilla (Template literals)
