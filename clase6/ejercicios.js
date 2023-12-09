@@ -1,13 +1,13 @@
-// Exercise 1
-// Use Promise.resolve(value) to create a promise that will resolve with the value 3.
+// Ejercicio 1
+// Utiliza Promise.resolve(valor) para crear una promesa que se resolverá con el valor 3.
 
-// Exercise 2
-// Use Promise.reject(error) to create a promise that will reject with the string "Boo!"
+// Ejercicio 2
+// Utiliza Promise.reject(error) para crear una promesa que se rechazará con la cadena "¡Bu!"
 
-// Exercise 3
-// You have the outline of a function makePromiseWithConstructor(itShouldResolve)
+// Ejercicio 3
+// Tienes el esquema de una función makePromiseWithConstructor(itShouldResolve)
 
-// Use the Promise constructor to create a promise that will:
+// Utiliza el constructor Promise para crear una promesa que:
 
-// resolve if itShouldResolve is truthy
-// reject if itShouldResolve is falsy
+// se resuelva si itShouldResolve es verdadero
+// se rechace si itShouldResolve es falso
