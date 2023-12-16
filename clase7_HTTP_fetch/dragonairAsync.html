@@ -13,18 +13,20 @@
     <script>
       const nombrePokemonInput = document.querySelector("#nombrePokemon");
       const buscarBtn = document.querySelector("#buscarBtn");
-      buscarBtn.addEventListener("click", () => {
+      buscarBtn.addEventListener("click", async () => {
         const nombre = nombrePokemonInput.value.toLowerCase();
         if (nombre !== "") {
-          fetch(`https://pokeapi.co/api/v2/pokemon/${nombre}`)
-            .then((response) => response.json())
-            .then((data) => {
-              document.querySelector("img").src = data.sprites.front_default;
-            })
-            .catch((error) => {
-              alert(`El Pokemon "${nombre}"" no existe`);
-              document.querySelector("img").src = "";
-            });
+          try {
+            const response = await fetch(
+              `https://pokeapi.co/api/v2/pokemon/${nombre}`
+            );
+            const data = await response.json();
+            const imagenUrl = data.sprites.front_default;
+            document.querySelector("img").src = imagenUrl;
+          } catch (error) {
+            alert(`El Pokemon "${nombre}"" no existe`);
+            document.querySelector("img").src = "";
+          }
         } else {
           alert("Ingrese el nombre del Pokemon");
           document.querySelector("img").src = "";
