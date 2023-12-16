@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Poke API</title>
   </head>
   <body>
-    <img src="" />
+    <label for="nombrePokemon">Nombre del Pokemon</label>
+    <input type="text" id="nombrePokemon" />
+    <button>Buscar</button>
+    <img src="" alt="" height="200" width="200" />
     <script>
-        // Ejercicio:
-        // Obtener de la api de pokemon la imagen de dragonair, y mostrarla.
-        // Pasos:
-        // 1) Hacer el fetch a la api de pokemon para obtener la url de la imagen
-        await fetch('https://pokeapi.co/api/v2/pokemon/').then(res => res.json())
-        // 2) Setear en el DOM el src de la etiqueta img para que tenga la url de dragonair
-       document.querySelector("img").src ="";
+      // Ejercicio: Que al presionar el boton busque el pokemon por nombre a partir de lo ingresado en el input
+      // En caso de que no encuentre el pokemon, hacer un alert('Pokemon no encontrado')
+      fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+          document.querySelector("img").src = data.sprites.front_default;
+        });
     </script>
   </body>
 </html>
