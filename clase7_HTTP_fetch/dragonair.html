@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="" />
+    <script>
+        // Ejercicio:
+        // Obtener de la api de pokemon la imagen de dragonair, y mostrarla.
+        // Pasos:
+        // 1) Hacer el fetch a la api de pokemon para obtener la url de la imagen
+        await fetch('https://pokeapi.co/api/v2/pokemon/').then(res => res.json())
+        // 2) Setear en el DOM el src de la etiqueta img para que tenga la url de dragonair
+       document.querySelector("img").src ="";
+    </script>
+  </body>
+</html>
