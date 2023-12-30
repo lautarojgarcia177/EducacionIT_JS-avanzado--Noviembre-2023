@@ -73,11 +73,12 @@
 
 ##### Módulo 9: Desarrollo de Back-End con Node.js
 1. Introducción a Node.js
-2. Creación de un servidor básico
-3. Enrutamiento y middleware
-4. Entrada/salida asíncrona y ciclo de eventos
-5. Trabajo con bases de datos (por ejemplo, MongoDB)
-6. Construcción de una API RESTful
+2. npm
+3. Creación de un servidor básico
+4. Enrutamiento y middleware
+5. Entrada/salida asíncrona y ciclo de eventos
+6. Trabajo con bases de datos (por ejemplo, MongoDB)
+7. Construcción de una API RESTful
 
 ##### Módulo 10: Desarrollo Web Avanzado
 1. Webpack y herramientas de construcción
