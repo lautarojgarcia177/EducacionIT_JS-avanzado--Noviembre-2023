@@ -77,7 +77,7 @@
 3. Creación de un servidor básico
 4. Enrutamiento y middleware
 5. Entrada/salida asíncrona y ciclo de eventos
-6. Trabajo con bases de datos (por ejemplo, MongoDB)
+6. Trabajo con bases de datos (MongoDB)
 7. Construcción de una API RESTful
 
 ##### Módulo 10: Desarrollo Web Avanzado
