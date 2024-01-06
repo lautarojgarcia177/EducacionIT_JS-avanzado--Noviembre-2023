@@ -83,10 +83,9 @@
 ##### Módulo 10: Desarrollo Web Avanzado
 1. Webpack y herramientas de construcción
 2. Babel y transpilación
-3. Pruebas y marcos de pruebas (por ejemplo, Jest)
+3. Pruebas, Tests Unitarios (por ejemplo, Jest)
 4. Control de versiones con Git
-5. Implementación de una aplicación web
-6. Optimización del rendimiento y depuración
+5. Optimización del rendimiento y depuración
 
 ##### Módulo 11: Seguridad y Mejores Prácticas
 1. Scripting entre sitios (XSS) y solicitud de falsificación de petición entre sitios (CSRF)
