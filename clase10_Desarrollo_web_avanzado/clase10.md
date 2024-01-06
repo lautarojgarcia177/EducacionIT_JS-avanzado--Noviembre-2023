@@ -11,4 +11,4 @@ obteniendo una mejor performance.
 
 Babel es un transpilador que me convierte el codigo JS moderno en JS que el navegador pueda entender. Esto era muy necesario hasta hace unos pocos años ya que JS avanzaba mas rapido que los navegadores web. Hoy en dia estan bastante actualizados los navegadores web y no es tan necesario. Aun asi, puedo incorporar babel en mi etapa de construccion si lo quisiera.
 
-##
+## Pruebas unitarias
