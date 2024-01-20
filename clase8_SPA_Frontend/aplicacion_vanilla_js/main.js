@@ -1,8 +1,8 @@
 const contadorLocalStorage36 = localStorage.getItem("contador36");
 let contador36 = contadorLocalStorage36 ? Number(contadorLocalStorage36) : 0;
 
+debugger
 const contadorSpan36 = document.querySelector("#contador36");
-
 contadorSpan36.innerHTML = contador36;
 
 function aumentarContador36() {

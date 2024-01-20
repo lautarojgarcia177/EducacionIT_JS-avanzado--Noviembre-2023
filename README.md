@@ -85,18 +85,19 @@
 2. Babel y transpilación
 3. Pruebas, Tests Unitarios (por ejemplo, Jest)
 4. Control de versiones con Git
-5. Optimización del rendimiento y depuración
 
 ##### Módulo 11: Seguridad y Mejores Prácticas
-1. Scripting entre sitios (XSS) y solicitud de falsificación de petición entre sitios (CSRF)
-2. Autenticación y autorización
-3. Prácticas seguras de codificación
-4. Los diez principales riesgos de seguridad según OWASP
-5. HTTPS y SSL/TLS
-6. Revisiones de código y calidad del código
+1. Optimización del rendimiento y depuración
+2. Scripting entre sitios (XSS) y solicitud de falsificación de petición entre sitios (CSRF)
+3. Autenticación y autorización
+4. Prácticas seguras de codificación
+5. Los diez principales riesgos de seguridad según OWASP
+6. HTTPS y SSL/TLS
+7. Revisiones de código y calidad del código
 
 ##### Módulo 12: Proyectos del Mundo Real y Desarrollo Profesional
-1. Trabajar en un proyecto completo
+1. Code Reviews and Code Quality:
+2. Trabajo en un entorno real con un equipo conformado en metodolia agile
 2. Control de versiones y herramientas de colaboración (por ejemplo, GitHub)
 3. Creación de un portafolio
 4. Preparación para entrevistas
